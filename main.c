@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-const char ws = ' ';
-
 void err(char* msg) {
 	fprintf(stderr, "Error: %s\n", msg);
 }
